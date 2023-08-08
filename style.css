@@ -1,0 +1,59 @@
+body{
+     background-color: rgba(227, 243, 8, 0.562);
+     margin-left: 110px;
+      margin-right: 110px;
+      border: 1px solid;
+      font-size: 24pt;
+      font-family:monospace;
+      text-align: center;
+     
+}
+header{
+     height: 50px;
+     background-color: rgb(10, 202, 10);
+     border: 1px solid black;
+     margin: 5px 6px 5px 5px;
+     padding-top: 10px;
+}
+#Menu{
+     background-color: #c9f3e3;
+     border: 1px solid black;
+     width: 98.5%;
+     height: 40px;
+     margin: 5px 10px 5px 5px;
+}
+#left{
+     background-color:rgb(123, 12, 228);
+     border: 1px solid black;
+     width: 20.7%;
+     height: 450px;
+     margin-top: 1px;
+     float: left;
+     margin-left: 5px;
+}
+#content{
+     background-color:rgb(211, 8, 110);
+     border: 1px solid black;
+     width: 77%;
+     height: 450px;
+     margin-top: 1px;
+     margin-left: 5px;
+     margin-bottom: 5px;
+     float: left;
+}
+#footer{
+     height: 50px;
+     background-color: rgb(236, 114, 13);
+     border: 1px solid rgb(17, 17, 17);
+     clear: both;
+    margin: 5px 5px 5px 5px;
+    padding-top: 10px;
+}
+#div{
+     background-color: greenyellow;
+     border: 3px solid red;
+}
+header:hover,#Menu:hover,#footer:hover,#content:hover,#left:hover{
+     background-color: aqua;
+     cursor: pointer;
+}
